@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Rulers::VERSION
   spec.authors       = ["Konrad Maurer"]
   spec.email         = ["kradjr@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Rulers: This is a rebuild of the general concepts in Rails.}
+  spec.description   = %q{Rulers: Write a longer description. Optional.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,9 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+
 end
+
+
+gem.add_runtime_dependency 'rack'
+
